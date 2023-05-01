@@ -1,0 +1,112 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "82c0b998",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'intents': [{'tag': 'greeting',\n",
+       "   'user_input': ['hello', 'hi', 'hey'],\n",
+       "   'bot_response': ['Hey there!']},\n",
+       "  {'tag': 'greeting',\n",
+       "   'user_input': ['see you', 'goodbye', 'bye'],\n",
+       "   'bot_response': ['See you later!']},\n",
+       "  {'tag': 'greeting',\n",
+       "   'user_input': ['nice', 'to', 'meet', 'you'],\n",
+       "   'bot_response': ['The pleasure is all mine!'],\n",
+       "   'required_words': ['nice', 'meet', 'you']},\n",
+       "  {'tag': 'question',\n",
+       "   'user_input': ['how', 'to', 'learn', 'code', 'coding', 'apps'],\n",
+       "   'bot_response': [\"Start by typing: 'How to learn coding' on Google.\"],\n",
+       "   'required_words': ['learn', 'code']},\n",
+       "  {'tag': 'question',\n",
+       "   'user_input': ['refund', 'how', 'can', 'I', 'get'],\n",
+       "   'bot_response': [\"We don't offer refunds for free education.\"],\n",
+       "   'required_words': ['refund', 'i']},\n",
+       "  {'tag': 'question',\n",
+       "   'user_input': ['how', 'are', 'you'],\n",
+       "   'bot_response': [\"I'm great! Thanks for asking.\"],\n",
+       "   'required_words': ['how', 'are', 'you']}]}"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{\"intents\":\n",
+    " [\n",
+    "  {\n",
+    "    \"tag\": \"greeting\",\n",
+    "    \"user_input\": [\"hello\", \"hi\", \"hey\"],\n",
+    "    \"bot_response\": [\"Hey there!\"],\n",
+    "  },\n",
+    "  {\n",
+    "    \"tag\": \"greeting\",\n",
+    "    \"user_input\": [\"see you\", \"goodbye\", \"bye\"],\n",
+    "    \"bot_response\":[\"See you later!\"],\n",
+    "\n",
+    "  },\n",
+    "  {\n",
+    "    \"tag\": \"greeting\",\n",
+    "    \"user_input\": [\"nice\", \"to\", \"meet\", \"you\"],\n",
+    "    \"bot_response\": [\"The pleasure is all mine!\"],\n",
+    "    \"required_words\": [\"nice\", \"meet\", \"you\"],\n",
+    "  },\n",
+    "  {\n",
+    "    \"tag\": \"question\",\n",
+    "    \"user_input\": [\"how\", \"to\", \"learn\", \"code\", \"coding\", \"apps\"],\n",
+    "    \"bot_response\": [\"Start by typing: 'How to learn coding' on Google.\"],\n",
+    "    \"required_words\": [\"learn\", \"code\"],\n",
+    "  },\n",
+    "  {\n",
+    "    \"tag\": \"question\",\n",
+    "    \"user_input\": [\"refund\", \"how\", \"can\", \"I\", \"get\"],\n",
+    "    \"bot_response\": [\"We don't offer refunds for free education.\"],\n",
+    "    \"required_words\": [\"refund\", \"i\"],\n",
+    "  },\n",
+    "  {\n",
+    "    \"tag\": \"question\",\n",
+    "    \"user_input\": [\"how\", \"are\", \"you\"],\n",
+    "    \"bot_response\": [\"I'm great! Thanks for asking.\"],\n",
+    "    \"required_words\": [\"how\", \"are\", \"you\"]\n",
+    "  }\n",
+    "]}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c644a053",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
